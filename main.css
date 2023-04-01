@@ -1,0 +1,346 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+a{
+    color: #fff;
+}
+
+body
+{
+    width: 1200px;
+    margin: auto;
+    background-color: #222;
+}
+.navbar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu li a{
+    text-decoration: none;
+    color: #000;
+}
+.menu li{
+    list-style: none;
+    margin-right: 20px;
+}
+.part1{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url("image/part_1.jpg");
+    background-size: cover;
+}
+.inpart1
+{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+.presentation{
+    font-size: 25px;
+    width: 400px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.pres input{
+    width: 225px;
+    margin-right: 5px;
+    height: 35px;
+    background-color: #ffffff;
+    border: none;
+
+}
+
+.pres input:active{
+    background-color: #ffffff;
+}
+
+.pres button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: #ffd000fb;
+    color: #fafafa;
+}
+.menu ul .lmenu{
+    position: relative;
+}
+.menu ul .lmenu .menub{
+    z-index: 3;
+    position: absolute;
+    display: none;
+}
+.menu ul .lmenu:hover .menub
+{
+    width: 100%;
+    display: block;
+}
+.part2{
+    background-color: #ff0;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.colabL{
+    width: 450px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.colabR{
+    margin-left: -200px;
+}
+.part3{
+    display: flex;
+}
+.part3 .filsp3:nth-child(1){
+    background-color: #f00;
+    /* color: #fff; */
+}
+.part3 .filsp3:nth-child(2){
+    background-color: #ff0;
+    color: #000;
+}
+.part3 .filsp3:nth-child(3){
+    background-color: #333;
+    /* color: #fff; */
+}
+.part3 .filsp3:nth-child(4){
+    background-color: #aaa;
+    /* color: #fff; */
+}
+.filsp3{
+    font-weight: 500;
+    font-size: 20px;
+    width: 300px;
+    color: #ffffffda;
+    padding-left: 30px;
+}
+.filsp3 p:nth-child(1){
+    font-size: 35px;
+}
+.filsp3 p:nth-child(2){
+    font-size: 20px;
+}
+.filsp3 p:nth-child(3){
+    font-size: 15px;
+}
+
+.filsp3 p:nth-child(4){
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.filsp3:nth-child(1) p:nth-child(4){
+    color: red;
+}
+.filsp3:nth-child(2) p:nth-child(4){
+    background-color: #000;
+    color: yellow;
+}
+.filsp3:nth-child(3) p:nth-child(4){
+    color: #333;
+}
+.filsp3:nth-child(4) p:nth-child(4){
+    color: #aaa;
+}
+.part4{
+    width: 100%;
+    background-color: #ff0;
+    position: relative;
+    height: auto;
+}
+.fondp4{
+    position: absolute;
+    height: 600px;
+    top: 0px;
+    right: 0px;
+    width: 80%;
+    background-color: #333;
+
+}
+.p4{
+    padding: 80px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    grid-gap: 25px;
+}
+.p4 div , .p4 div img{
+    width: 300px;
+    height: 300px;
+}
+.part4 .p4 div:nth-child(7){
+    padding-top: 3px;
+    width: 250px;
+}
+
+.part4 .p4 div:nth-child(7) p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+.part4 .p4 div:nth-child(7) h2{
+    font-size: 30px;
+    text-decoration: none;
+}
+.part5{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: -30px;
+    position: relative;
+    background-color: #333;
+    height: auto;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 3;
+}
+.part5 .imgp5,.part5 .imgp5 img{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    z-index: 3;
+}
+.part5 .nom {
+    margin: 15px auto;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    z-index: 3;
+}
+.part5 .p5{
+    margin: 15px auto;
+    width: 300px;
+    font-size: 14px;
+    text-align: center;
+    z-index: 3;
+}
+.part5 .centrep5{
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    width: 500px;
+    height: 200px;
+    background-color: #f00;
+    z-index: -1;
+}
+.part6{
+    margin-top: -16px;
+    height: 230px;
+    background-color: #f00;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.follow{
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+}
+.follow p{
+    font-size: 25px;
+    /* word-spacing: 10px; */
+}
+.follow a{
+    font-size: 20px;
+    margin: 0px 5px;
+}
+
+.part7{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background-color: #191924;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 30px;
+    position: relative;
+    padding-bottom: 50px;
+}
+.emp{
+    width: 40%;
+    z-index: 3;
+}
+.emp p{
+    font-size: 30px;
+}
+.emp .copy{
+    font-size: 20px;
+    margin-left: -20px;
+}
+pre{
+    margin-left: -50px;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+}
+.emp .inp7{
+    width: 100%;
+    background-color: #fff;
+    height: 40px;
+    margin-bottom: 30px;
+    border: none;
+    padding-left: 10px;
+}
+.emp .areap7{
+    width: 100%;
+    background-color: #fff;
+    height: 130px;
+    margin-bottom: 30px;
+    border: none;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.soumettre{
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    background: none;
+    border: solid 1px #fff;
+    letter-spacing: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.soumettre:hover{
+    transition: .6s;
+    border: none;
+    border-bottom: solid 3px #ff0;
+}
+
+.followp7{
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    margin-left: -50px;
+}
+.followp7 a{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.centrep7{
+    position: absolute;
+    top: 1px;
+    height: 100%;
+    width: 200px;
+    background-color: #ff0;
+    z-index: 1;
+}
